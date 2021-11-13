@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.calculator {
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textView {
+    width: 210px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    margin: 3px;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #fdfd;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+ .equal {
+     height: 110px;
+ }
+
+ .equal:hover {
+     background: green;
+     color: white;
+ }
+
+ .del:hover {
+     background: red;
+     color: white;
+ }
+
+ .zero {
+     width: 110px;
+ }
+
+ @media screen and (max-width: 768px) {
+     .calculator {
+         background-color: black;
+     }
+ }
+
+ @media screen and (max-width: 500px) {
+     .calculator {
+         background-color: blueviolet;
+     }
+ }
